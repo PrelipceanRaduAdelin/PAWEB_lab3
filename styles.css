@@ -1,12 +1,13 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Arial';
 }
 
 header {
     background-color: #134E8E;
     text-align: center;
+    padding-top: 20px;
 }
 
 body {
@@ -45,12 +46,13 @@ p {
     text-align: center;
     margin: 0 auto;
     flex: 1;
+    font-family: "deathcore";
 }
 
 #img1 {
     width: 40vh;
     padding: 10px;
-    border-radius: 20%;
+    border-radius: 50%;
 }
 
 ul {
@@ -60,4 +62,9 @@ ul {
     margin: 0 auto;
     padding-bottom: 10px;
     text-align: start;
+}
+
+@font-face {
+    font-family: "deathcore";
+    src: url('/fonts/TheDark-pr2Z.ttf');
 }
