@@ -46,18 +46,19 @@ p {
     text-align: center;
     margin: 0 auto;
     flex: 1;
-    font-family: "deathcore";
+    font-family: "Anton";
 }
 
 #img1 {
-    width: 40vh;
+    width: 20vh;
+    max-height: 20vh;
     padding: 10px;
     border-radius: 50%;
 }
 
 ul {
     list-style-position: inside;
-    width: 200px;
+    width: 350px;
     flex: 1;
     margin: 0 auto;
     padding-bottom: 10px;
